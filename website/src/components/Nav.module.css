@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: var(--background);
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.toggle {
+  background: var(--foreground);
+  color: var(--background);
+  padding: 5px 10px;
+  border-radius: 4px;
+}
