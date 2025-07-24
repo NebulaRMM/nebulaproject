@@ -12,8 +12,9 @@
 }
 
 .cta {
-  background: var(--foreground);
-  color: var(--background);
+  background: linear-gradient(90deg, #62efff, #b388ff 80%);
+  color: #1a202c;
   padding: 10px 20px;
   border-radius: 4px;
+  font-weight: 600;
 }
