@@ -11,7 +11,7 @@ const links = [
 ];
 
 export default function Nav() {
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(true);
 
   useEffect(() => {
     document.documentElement.dataset.theme = dark ? 'dark' : 'light';
@@ -19,6 +19,7 @@ export default function Nav() {
 
   return (
     <nav className={styles.nav}>
+      <a href="/" className={styles.brand}>Nebula</a>
       <ul className={styles.links}>
         {links.map((link) => (
           <li key={link.href}>
