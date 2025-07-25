@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Nebula',
     description: 'Network Monitoring & Management for the Modern Era',
-    url: 'https://example.com',
+    url: 'https://nebula.example',
   },
 };
 

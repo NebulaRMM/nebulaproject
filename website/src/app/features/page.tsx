@@ -4,9 +4,19 @@ export default function Features() {
   return (
     <div>
       <Hero title="Features" cta="Read Docs" ctaLink="/docs" />
-      <p style={{ padding: '20px', textAlign: 'center' }}>
-        Placeholder for Nebula features. See README for more info.
-      </p>
+      <section style={{ padding: '20px', textAlign: 'center' }}>
+        <p>
+          Nebula provides enterprise-level network visibility without the
+          enterprise price tag. Key capabilities include:
+        </p>
+        <ul style={{ listStyle: 'none', padding: 0 }}>
+          <li>⚡ Automated discovery and SNMP polling</li>
+          <li>🌐 Dynamic topology maps and real-time dashboards</li>
+          <li>🔑 Plugin-friendly architecture for custom modules</li>
+          <li>🚀 Lightweight collectors for remote sites</li>
+          <li>🛡️ Security-first design with role-based access</li>
+        </ul>
+      </section>
     </div>
   );
 }

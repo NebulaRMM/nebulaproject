@@ -6,6 +6,7 @@ export default function Footer() {
       <p>
         <a href="https://github.com">GitHub</a> |{' '}
         <Link href="/docs">Docs</Link> |{' '}
+        <Link href="/about">About</Link> |{' '}
         <Link href="/contact">Contact</Link>
       </p>
     </footer>
