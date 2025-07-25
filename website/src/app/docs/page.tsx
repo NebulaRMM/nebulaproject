@@ -16,6 +16,8 @@ export default function Docs() {
         <a href="https://github.com/NebulaRMM/nebula" target="_blank" rel="noopener noreferrer">
           github.com/NebulaRMM/nebula
         </a>
+        Full guides live in the NebulaRMM/nebula repository. Visit GitHub for
+        installation and architecture details.
       </p>
     </div>
   );
