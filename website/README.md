@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+Nebula is an open platform for discovering and managing network devices. The
+full source code and documentation reside in the
+[NebulaRMM/nebula](https://github.com/NebulaRMM/nebula) repository.
+
 ## Getting Started
 
 First, run the development server:
