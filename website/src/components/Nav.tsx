@@ -1,5 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 import styles from './Nav.module.css';
 
 const links = [
@@ -19,11 +20,11 @@ export default function Nav() {
 
   return (
     <nav className={styles.nav}>
-      <a href="/" className={styles.brand}>Nebula</a>
+      <Link href="/" className={styles.brand}>Nebula</Link>
       <ul className={styles.links}>
         {links.map((link) => (
           <li key={link.href}>
-            <a href={link.href}>{link.label}</a>
+            <Link href={link.href}>{link.label}</Link>
           </li>
         ))}
       </ul>
