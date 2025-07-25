@@ -4,7 +4,7 @@ export default function Docs() {
       <h1>Documentation</h1>
       <p>
         Detailed setup guides and architecture notes are available in the
-        NebulaRMM/nebula repository on GitHub. You'll find instructions for the
+        NebulaRMM/nebula repository on GitHub. You&apos;ll find instructions for the
         Go backend, collector agent and React UI.
       </p>
       <p>
