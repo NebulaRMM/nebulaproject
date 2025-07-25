@@ -9,7 +9,13 @@ export default function Docs() {
       </p>
       <p>
         Start there for installation steps, environment variables and advanced
-        configuration examples.
+        configuration examples. The repository also contains screenshots and
+        design documents explaining how the pieces fit together.
+      </p>
+      <p>
+        <a href="https://github.com/NebulaRMM/nebula" target="_blank" rel="noopener noreferrer">
+          github.com/NebulaRMM/nebula
+        </a>
       </p>
     </div>
   );

@@ -15,6 +15,8 @@ export default function Features() {
           <li>🔑 Plugin-friendly architecture for custom modules</li>
           <li>🚀 Lightweight collectors for remote sites</li>
           <li>🛡️ Security-first design with role-based access</li>
+          <li>📢 Alerting and notification integrations</li>
+          <li>🔍 Simplified troubleshooting with historical data</li>
         </ul>
       </section>
     </div>

@@ -10,6 +10,7 @@ const links = [
   { href: '/docs', label: 'Docs' },
   { href: '/download', label: 'Download' },
   { href: '/contact', label: 'Contact' },
+  { href: 'https://github.com/NebulaRMM/nebula', label: 'GitHub', external: true },
 ];
 
 export default function Nav() {
@@ -25,7 +26,13 @@ export default function Nav() {
       <ul className={styles.links}>
         {links.map((link) => (
           <li key={link.href}>
-            <Link href={link.href}>{link.label}</Link>
+            {link.external ? (
+              <a href={link.href} target="_blank" rel="noopener noreferrer">
+                {link.label}
+              </a>
+            ) : (
+              <Link href={link.href}>{link.label}</Link>
+            )}
           </li>
         ))}
       </ul>

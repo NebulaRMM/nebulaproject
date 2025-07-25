@@ -14,6 +14,10 @@ export default function Home() {
           Built around a Go API, a lightweight collector agent and a React UI,
           Nebula is open source and designed for security-focused environments.
         </p>
+        <p>
+          Learn more and contribute on{' '}
+          <a href="https://github.com/NebulaRMM/nebula" target="_blank" rel="noopener noreferrer">GitHub</a>.
+        </p>
       </section>
     </div>
   );
