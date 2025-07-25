@@ -8,7 +8,7 @@ export default function Home() {
         <p>
           Nebula is a community-driven platform for monitoring and managing
           networks. Automated discovery and SNMP polling feed into dynamic
-          topology maps so you always know what's online.
+          topology maps so you always know what&apos;s online.
         </p>
         <p>
           Built around a Go API, a lightweight collector agent and a React UI,
